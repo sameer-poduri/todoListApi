@@ -20,7 +20,6 @@ app.use(function(req, res) {
 var routes = require('./api/routes/todoListRoutes'); //importing route
 routes(app); //register the route
 
-#testing
 
 app.listen(port);
 
